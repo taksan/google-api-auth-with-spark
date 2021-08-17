@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8" />
+    <title>Found events</title>
+</head>
+<body>
+<p>Hello, <!--/*@thymesVar id="name" type="string"*/-->
+<span th:text="${name}">. These are your events: </span></p>
+<ul>
+    <!--/*@thymesVar id="list" type="list"*/-->
+    <li th:each="eventContent : ${list}">
+        <span th:text="${eventContent}"></span>
+    </li>
+</ul>
+</body>
