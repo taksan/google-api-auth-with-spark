@@ -5,7 +5,7 @@ that can be used to access Google Api Resources.
 
 Before running this example, make sure to get your credentials.json from Google Developer Console 
 (see [https://developers.google.com/workspace/guides/create-credentials]) and place the credentials in the 
-`src/main/resources` directory.
+`project workspace` directory.
 
 Just run and hit / to go the "login" screen for a run.
 
